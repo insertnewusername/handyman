@@ -1,0 +1,172 @@
+<!-- ====================================================
+     about.html – About Page
+     ==================================================== -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About – L&G Aust Handyman</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="container nav-container">
+      <div class="nav-logo">
+        <span class="logo-icon"><i class="fas fa-tools"></i></span>
+        <span class="logo-text">L&G <span class="logo-highlight">Aust</span></span>
+      </div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="about.html" class="active">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="nav-cta">
+        <a href="contact.html" class="btn btn-primary btn-sm">Get a Quote</a>
+      </div>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- About content -->
+  <section class="about" style="padding-top: 140px;">
+    <div class="container about-container">
+      <div class="about-image">
+        <img src="https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?w=600&h=500&fit=crop&auto=format" alt="Team working" />
+        <div class="about-image-badge">
+          <i class="fas fa-users"></i> Expert Team
+        </div>
+      </div>
+      <div class="about-content">
+        <span class="section-tag">Our Story</span>
+        <h2 class="section-title">About <span class="highlight">L&G Aust</span></h2>
+        <p class="about-desc">
+          L&G Aust Pty Ltd was founded on the principle that quality handyman services should be accessible, transparent, and reliable. We’ve grown from a one‑person operation to a trusted team of skilled tradespeople, all while maintaining the same commitment to excellence.
+        </p>
+        <p class="about-desc">
+          We understand that your home or business is your biggest asset. That’s why we treat every project with the care and attention it deserves. Whether it’s a quick fix or a major overhaul, we bring expertise, honesty, and a friendly attitude to every job.
+        </p>
+        <ul class="about-features">
+          <li><i class="fas fa-check-circle"></i> Over 10 years of combined experience</li>
+          <li><i class="fas fa-check-circle"></i> Fully insured and licensed</li>
+          <li><i class="fas fa-check-circle"></i> Transparent pricing – no surprises</li>
+          <li><i class="fas fa-check-circle"></i> We clean up after ourselves – guaranteed</li>
+        </ul>
+        <a href="contact.html" class="btn btn-primary">Get in Touch</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials (optional extra) -->
+  <section class="testimonials">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Kind Words</span>
+        <h2 class="section-title">What Our <span class="highlight">Clients Say</span></h2>
+      </div>
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <div class="testimonial-stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i>
+            <i class="fas fa-star"></i><i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <p>"L&G Aust came recommended and they didn’t disappoint. Professional, efficient, and the quality of work is outstanding."</p>
+          <div class="testimonial-author">
+            <span class="author-name">David P.</span>
+            <span class="author-location">Chatswood</span>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i>
+            <i class="fas fa-star"></i><i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <p>"They painted my entire house in two days – flawless job. Very happy with the communication and the result."</p>
+          <div class="testimonial-author">
+            <span class="author-name">Emily K.</span>
+            <span class="author-location">Surry Hills</span>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i>
+            <i class="fas fa-star"></i><i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <p>"I’ve used L&G Aust for multiple jobs – plumbing, electrical, carpentry. They are my go-to handyman. Highly recommend."</p>
+          <div class="testimonial-author">
+            <span class="author-name">Mark T.</span>
+            <span class="author-location">Randwick</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-brand">
+        <span class="logo-icon"><i class="fas fa-tools"></i></span>
+        <span class="logo-text">L&G <span class="logo-highlight">Aust</span></span>
+        <p class="footer-desc">
+          Professional handyman services across Sydney. Quality workmanship,
+          honest pricing, and a commitment to excellence.
+        </p>
+        <p class="footer-legal">ABN: 12 345 678 910</p>
+      </div>
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-services">
+        <h4>Our Services</h4>
+        <ul>
+          <li>General Repairs</li>
+          <li>Plumbing</li>
+          <li>Electrical</li>
+          <li>Painting</li>
+          <li>Carpentry</li>
+          <li>Property Maintenance</li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <h4>Get in Touch</h4>
+        <ul>
+          <li><i class="fas fa-phone"></i> 0400 123 456</li>
+          <li><i class="fas fa-envelope"></i> info@lgaus.com.au</li>
+          <li><i class="fas fa-map-marker-alt"></i> Sydney, NSW 2000</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>&copy; 2026 L&G Aust Pty Ltd. All rights reserved.</p>
+        <p>Built with <i class="fas fa-heart" style="color: #e74c3c;"></i> in Australia</p>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#" class="back-to-top" id="backToTop" aria-label="Back to top">
+    <i class="fas fa-chevron-up"></i>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
