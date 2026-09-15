@@ -91,7 +91,6 @@ img {
   width: 100%;
 }
 
-/* ----- section headers ----- */
 .section-tag {
   display: inline-block;
   font-size: 0.8rem;
@@ -180,25 +179,7 @@ img {
   font-size: 0.9rem;
 }
 
-.hamburger {
-  display: none;
-  flex-direction: column;
-  gap: 5px;
-  cursor: pointer;
-  background: none;
-  border: none;
-  padding: 4px;
-}
-.hamburger span {
-  display: block;
-  width: 28px;
-  height: 3px;
-  background: var(--white);
-  border-radius: 3px;
-  transition: var(--transition);
-}
 
-/* ----- hero (index) ----- */
 .hero {
   position: relative;
   padding: 140px 0 80px;
@@ -604,7 +585,6 @@ img {
 }
 
 
-/* ----- responsive ----- */
 @media (max-width: 992px) {
   .hero-container,
   .about-container,
