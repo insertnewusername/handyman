@@ -109,9 +109,7 @@ img {
   line-height: 1.2;
   margin-bottom: 16px;
 }
-.section-title .highlight {
-  color: var(--accent);
-}
+
 
 .section-desc {
   font-size: 1.1rem;
@@ -150,9 +148,6 @@ img {
 }
 .logo-icon {
   font-size: 1.8rem;
-  color: var(--accent);
-}
-.logo-highlight {
   color: var(--accent);
 }
 
@@ -248,9 +243,6 @@ img {
   font-weight: 800;
   line-height: 1.2;
   margin-bottom: 20px;
-}
-.hero-title .highlight {
-  color: var(--accent);
 }
 
 .hero-desc {
