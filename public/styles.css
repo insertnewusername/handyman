@@ -10,11 +10,10 @@
   --primary-light: #2a4a7a;
   --accent: #e67e22;
   --accent-hover: #cf6d17;
-  --gray-100: #f8f9fa;
-  --gray-200: #e9ecef;
-  --gray-300: #dee2e6;
-  --gray-600: #6c757d;
-  --gray-800: #343a40;
+  --white1: #e9ecef;
+  --lilgray: #dee2e6;
+  --gray: #6c757d;
+  --black: #343a40;
   --white: #ffffff;
   --shadow: 0 8px 30px rgba(0,0,0,0.08);
   --radius: 12px;
@@ -24,7 +23,7 @@
 
 body {
   font-family: var(--font);
-  color: var(--gray-800);
+  color: var(--black);
   background: var(--white);
   line-height: 1.6;
 }
@@ -113,7 +112,7 @@ img {
 
 .section-desc {
   font-size: 1.1rem;
-  color: var(--gray-600);
+  color: var(--gray);
   max-width: 600px;
   margin: 0 auto 40px;
 }
@@ -285,7 +284,7 @@ img {
 /* ----- services grid (shared) ----- */
 .services {
   padding: 80px 0;
-  background: var(--gray-100);
+  background: var(--white);
 }
 
 .services-grid {
@@ -319,7 +318,7 @@ img {
   margin-bottom: 10px;
 }
 .service-card p {
-  color: var(--gray-600);
+  color: var(--gray);
   font-size: 0.95rem;
   margin-bottom: 16px;
 }
@@ -365,7 +364,7 @@ img {
   margin-bottom: 16px;
 }
 .about-desc {
-  color: var(--gray-600);
+  color: var(--gray);
   margin-bottom: 24px;
 }
 
@@ -389,7 +388,7 @@ img {
 /* ----- testimonials (shared) ----- */
 .testimonials {
   padding: 80px 0;
-  background: var(--gray-100);
+  background: var(--white);
 }
 
 .testimonials-grid {
@@ -411,7 +410,7 @@ img {
 }
 .testimonial-card p {
   font-style: italic;
-  color: var(--gray-600);
+  color: var(--gray);
   margin-bottom: 16px;
 }
 .testimonial-author {
@@ -423,7 +422,7 @@ img {
 }
 .author-location {
   font-size: 0.85rem;
-  color: var(--gray-600);
+  color: var(--gray);
 }
 
 /* ----- contact (shared) ----- */
@@ -442,7 +441,7 @@ img {
   margin-bottom: 16px;
 }
 .contact-desc {
-  color: var(--gray-600);
+  color: var(--gray);
   margin-bottom: 32px;
 }
 
@@ -461,7 +460,7 @@ img {
 .contact-icon {
   width: 44px;
   height: 44px;
-  background: var(--gray-100);
+  background: var(--white);
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -472,7 +471,7 @@ img {
 .contact-item strong {
   display: block;
   font-size: 0.85rem;
-  color: var(--gray-600);
+  color: var(--gray);
 }
 .contact-item span {
   font-weight: 500;
@@ -485,12 +484,12 @@ img {
 .contact-social a {
   width: 44px;
   height: 44px;
-  background: var(--gray-100);
+  background: var(--white);
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--gray-800);
+  color: var(--black);
   transition: var(--transition);
 }
 .contact-social a:hover {
@@ -499,7 +498,7 @@ img {
 }
 
 .contact-form-wrapper {
-  background: var(--gray-100);
+  background: var(--white);
   padding: 40px;
   border-radius: var(--radius);
   box-shadow: var(--shadow);
@@ -522,7 +521,7 @@ img {
 .form-group textarea {
   width: 100%;
   padding: 12px 16px;
-  border: 1px solid var(--gray-300);
+  border: 1px solid var(--lilgray);
   border-radius: 8px;
   font-family: var(--font);
   font-size: 1rem;
