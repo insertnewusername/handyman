@@ -1,8 +1,4 @@
-/* ====================================================
-   styles.css – Shared styles for all pages
-   ==================================================== */
 
-/* ----- reset & base ----- */
 * {
   margin: 0;
   padding: 0;
@@ -24,10 +20,6 @@
   --radius: 12px;
   --transition: 0.25s ease;
   --font: 'Inter', sans-serif;
-}
-
-html {
-  scroll-behavior: smooth;
 }
 
 body {
