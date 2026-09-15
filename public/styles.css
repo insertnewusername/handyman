@@ -368,22 +368,6 @@ img {
   height: 400px;
   object-fit: cover;
 }
-.about-image-badge {
-  position: absolute;
-  bottom: 20px;
-  left: 20px;
-  background: var(--primary);
-  color: var(--white);
-  padding: 12px 24px;
-  border-radius: 50px;
-  font-weight: 600;
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-.about-image-badge i {
-  color: var(--accent);
-}
 
 .about-content .section-title {
   margin-bottom: 16px;
