@@ -3,7 +3,7 @@
 const contactForm = document.getElementById('contactForm');
 const formStatus = document.getElementById('formStatus');
 const formFieldsWrapper = document.getElementById('formFieldsWrapper');
-const submitBtn = document.getElementById('submitBtn');
+const submitbutton = document.getElementById('submitbutton');
 
 if (contactForm) {
   contactForm.addEventListener('submit', async (e) => {
@@ -15,9 +15,9 @@ if (contactForm) {
     formStatus.style.display = 'none';
 
     // Show loading state on button
-    const originalText = submitBtn.innerHTML;
-    submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Sending...';
-    submitBtn.disabled = true;
+    const originalText = submitbutton.innerHTML;
+    submitbutton.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Sending...';
+    submitbutton.disabled = true;
 
     try {
       const formData = new FormData(contactForm);
@@ -67,7 +67,7 @@ if (contactForm) {
     }
 
     // Restore button
-    submitBtn.innerHTML = originalText;
-    submitBtn.disabled = false;
+    submitbutton.innerHTML = originalText;
+    submitbutton.disabled = false;
   });
 }

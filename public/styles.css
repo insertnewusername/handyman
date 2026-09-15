@@ -50,7 +50,7 @@ img {
 }
 
 /* ----- buttons ----- */
-.btn {
+.button {
   display: inline-block;
   padding: 12px 28px;
   border-radius: 50px;
@@ -62,32 +62,32 @@ img {
   text-align: center;
 }
 
-.btn-primary {
+.button-primary {
   background: var(--accent);
   color: var(--white);
 }
-.btn-primary:hover {
+.button-primary:hover {
   background: var(--accent-hover);
   transform: translateY(-2px);
   box-shadow: 0 6px 20px rgba(230, 126, 34, 0.35);
 }
 
-.btn-outline {
+.button-outline {
   background: transparent;
   color: var(--white);
   border: 2px solid var(--white);
 }
-.btn-outline:hover {
+.button-outline:hover {
   background: var(--white);
   color: var(--primary);
 }
 
-.btn-sm {
+.button-sm {
   padding: 8px 20px;
   font-size: 0.9rem;
 }
 
-.btn-full {
+.button-full {
   width: 100%;
 }
 
@@ -175,7 +175,7 @@ img {
   background: var(--accent);
 }
 
-.nav-cta .btn {
+.nav-cta .button {
   font-size: 0.9rem;
 }
 
